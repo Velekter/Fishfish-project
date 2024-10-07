@@ -1,0 +1,932 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    line-height: 120%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    height: 90px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.menu{
+    padding-top: 15px;
+    max-width: 706px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+.menu-a{
+    text-decoration: none;
+    color: #001E64;
+}
+
+.menu-a:hover{
+    border-bottom: 3px solid #c4c4c4 ;
+}
+
+.phone{
+    align-self: center;
+    order: 1;
+}
+
+.header-fon{
+    background-image: url(/img/fon.png);
+    background-repeat: no-repeat;  
+    background-position: center 40px;
+    min-height: 990px;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 990px;
+    
+}
+
+.header-title{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 95px;
+    max-width: 675px;
+    color: #001E64;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+}
+
+.header-bottom{
+    max-width: 518px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 8px;
+    align-items: center;
+}
+
+.header-slider{
+    height: 410px;
+    width: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-bottom2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 291px;
+}
+
+.header-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 407px;
+}
+
+.header-text2{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.header-btn{
+
+}
+
+.header-btn2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 14px 88px 14px 87px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #c4c4c49c;
+    border-radius: 25px;
+    border: 1px solid #ffffff00 ;
+    transition: all 0.3s;
+}
+
+.header-btn2:hover{
+    background-color: #ffffff;
+    color: #001E64;
+}
+
+
+
+.products{
+    height: 593px;
+    margin-bottom: 15px;
+}
+
+.products1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.products-slider{
+    height: 433px;
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: center;
+    margin-top: 100px;
+}
+
+.products-slider1{
+    height: 423px;
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 598px;
+    padding-top: 104px;
+    height: 505px;
+}
+
+.products-title-one{
+    display: flex;
+    max-width: 598px;
+    justify-content: space-between;
+}
+
+.products-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 251px;
+    justify-content: space-between;
+}
+
+.crab-img{
+    margin-top: 3px;
+    max-width: 260px;
+}
+
+.products-slider-text{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #001E64;
+}
+
+.products-slider-text2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.products-title1{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #001E64;
+}
+
+.products-text1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #232222;
+}
+
+.products-title-two{ 
+    max-width: 598px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 244px;
+}
+
+.products-title2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    color: #001E64;
+    font-size: 24px;
+}
+
+.products-text2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #232222;
+    max-width: 598px;
+}
+
+.products-btn{
+    margin-top: 6px;
+    width: 300px;
+    height: 55px;
+}
+
+.products-btn1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding: 11px 0px 12px;
+    width: 100%;
+    font-size: 18px;
+    color: #001E64;
+    background-color: #c4c4c400;
+    border-radius: 20px;
+    border: 1px solid #001E64 ;
+    transition: all 0.3s;
+}
+
+.products-btn1:hover{
+    background-color: #001E64;
+    color: #c4c4c4;
+}
+
+
+
+.unique-content{
+    background-image: url(/img/unique.png);
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: 517px;
+    margin-bottom: 100px;
+}
+
+.unique-title{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 254px;
+}
+
+
+
+.recipes-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.recipes-title{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 24px;
+    color: #001E64;
+    max-width: 491px;
+    padding-bottom: 10px;
+    }
+
+.recipes-text-one{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.recipes-text{
+    max-width: 420px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #232222;
+}
+
+.recipes-content-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipes-title2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 24px;
+    color: #001E64;
+}
+
+.recipes-text2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #232222;
+}
+
+.recipes-text-two2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 420px;
+    margin-right: 180px;
+}
+
+.recipes-content-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.recipes-text-three{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipes_padding{
+    padding-top: 30px;
+}
+
+.recipes-title3{
+    max-width: 351px;
+    padding-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 24px;
+    color: #001E64;
+}
+
+.recipes-text3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #232222;
+    max-width: 420px;
+}
+
+.recipes-img-three{
+    margin-top: 50px;
+}
+
+
+
+/* .hestory-content{
+    background-image: url(/img/hestory.png);
+    background-repeat: no-repeat;  
+    background-position: center center;
+    min-height: 313px;
+    margin-top: 100px;
+} */
+
+.hestory-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.hestory-img1{
+    max-width: 800px;
+}
+
+.hestory-title{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: -12px;
+    align-items: center;
+}
+
+.hestory-text{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 18px;
+    color: #232222;
+    max-width: 696px;
+}
+
+
+
+/* .wholesalers-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+} */
+
+.wholesalers__content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wholesalers-background{
+    background-image: url(/img/wholesalers.png);
+    min-height: 350px;
+    background-repeat: no-repeat; 
+    max-width: 1920px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+/* .wholesalers-img1{
+    margin-top: 100px; 
+} */
+
+.wholesalers-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 357px;
+    margin-top: 32px;
+    background-color: white;
+    padding: 10px;
+}
+
+.wholesalers-text1{
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    line-height: auto;
+    font-size: 18px;
+    color: #001E64;
+}
+
+.wholesalers-text2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: auto;
+    font-size: 18px;
+    color: #232222;
+    text-decoration: none;
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-footer{
+    max-width: 706px;
+}
+
+.footer-svg{
+    display: flex;
+}
+
+.logo-footer{
+    order: 1;
+}
+
+
+.footer-img:hover path {
+    fill: #001E64;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-btn{
+    display: none;
+}
+
+@media screen and (max-width:1100px){
+    .header-top{
+        gap: 20px;
+    }
+
+    .recipes-text-two{
+        display: flex;
+        justify-content: center;      
+    }
+
+    .footer-svg{
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 90px;
+        gap: 5px;
+    }
+
+    .recipes-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recipes-text-one{
+        display: flex;
+        align-items: center;
+    }
+
+    .recipes-title{
+        max-width: 100%;
+    }
+
+    .recipes-text{
+        max-width: 100%;
+    }
+
+    .recipes-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .recipes-content-two{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .recipes-text-two2{
+        display: flex;
+        align-items: center;
+        max-width:100%;
+        gap: 20px;
+        padding-bottom: 15px;
+        margin-right: 0px;
+    }
+
+    .recipes-content-three{
+        display: flex;
+        flex-direction: column;
+    }
+    .recipes-text-three{
+        display: flex;
+        align-items: center;
+    }
+    
+    .recipes-text3{
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .recipes_padding{
+    padding-top: 15px;
+    }
+
+    .recipes-img-three{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .hestory-img1{
+        max-width: 100%;
+    }
+
+    .logo-footer{
+
+    }
+}
+
+@media screen and (max-width:930px){
+    .menu-toggle-content{
+        display: flex;
+        align-items: center;
+        margin: 0px 20px 0px auto;
+    }
+
+    .menu{
+        display: none;
+        order: -1;
+        margin-top: 50px;
+    }
+    
+    .menu ul{
+        position: absolute;
+        list-style: none;
+        display: block;
+        left: 20%;
+        right: 20%;
+        background-color: white;
+        border: 1px solid #c4c4c4;
+    }
+
+    .menu-a{
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .menu-a:hover{
+        border: 3px solid #c4c4c4;
+    }
+
+    #menu-toggle{
+        display: none;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .sr-only{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    .burger{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        position: relative;
+        transform-origin: 4px 0;
+        transition: transform 0.5s;
+    }
+
+    .burger:before,
+    .burger:after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: inherit;
+        position: absolute;
+        top: 0;
+    }
+
+    .burger:before{
+        transform: translateY(-8px);
+    }
+
+    .burger:after{
+        transform: translateY(8px);
+    }
+
+    #menu-toggle:checked ~ .menu{
+        display: block;
+    }
+
+    #menu-toggle:checked + .menu-btn .burger{
+        transform: rotate(45deg);
+    }
+
+    #menu-toggle:checked + .menu-btn .burger:before{
+        transform: translateY(0) rotate(-90deg);
+    }
+
+    #menu-toggle:checked + .menu-btn .burger:after{
+        transform: translateY(0) rotate(-90deg);
+    }
+
+
+    .products{
+        height: 650px;
+    }
+
+    .products1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products-slider{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .products-slider1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 450px;
+    }
+
+    .products__text{
+        display: none;
+    }
+    
+    .products-slider-text{
+        font-size: 24px;
+    }
+
+    .products-slider-text2{
+        font-size: 18px;
+    }
+
+    .products-img-top{
+        transform: rotate(-90deg);
+    }
+
+    .products-img-bottom{
+        transform: rotate(-90deg);
+    }
+
+    .products2{
+        padding-top: 20px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-title-one{
+        gap: 8px;
+    }
+
+    .products-title-two{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    
+
+    .unique-title{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-flow: wrap row;
+        gap: 30px;
+        padding-top: 80px;
+    }
+
+    .unique__container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .hestory-text{
+        max-width: 100%;
+    }
+
+
+    .recipes-img1{
+        width: 100%;
+    }
+
+    .recipes-img2{
+        width: 100%;
+    }
+
+    .recipes-img3{
+        width: 100%;
+    }
+
+
+
+    .menu-footer{
+        display: none;
+    }
+
+    .logo-footer{
+        display: none;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .footer-svg{
+       max-width: 180px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .header-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-title1{
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width:617px){
+    .products{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:476px){
+    .header-title1{
+        font-size: 40px;
+    }
+
+    .products__text2{
+        display: none;
+    }
+
+    .products-slider1{
+        width: 230px;
+    }
+
+    .products-slider{
+        width: 230px;
+    }
+
+    .products-title-one{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products{
+        height: 945px;
+    }
+
+    .products-text2{
+        max-width: 100%;
+    }
+    
+    .crab-img{
+        max-width: 100%;
+    }
+
+    .wholesalers__content{
+        justify-content: center;
+    }
+
+    .header-slider{
+        display: none;
+    }
+}
+
+@media screen and (max-width:431px){
+    .header-bottom2{
+        gap: 30px;
+    }
+
+    .header-btn2{
+        padding: 14px 55px 14px 55px;
+    }
+
+    .header-bottom{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .unique{
+        display: none;
+    }
+
+    .header-title1{
+        font-size: 32px;
+    }
+
+    .products{
+        height: 990px;
+    }
+
+    .products-btn1{
+        width: 76%;
+    }
+
+}
